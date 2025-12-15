@@ -1,0 +1,162 @@
+{
+  "common": {
+    "appName": "Club5 AI",
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "done": "Hecho",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito"
+  },
+  "onboarding": {
+    "welcome": "Bienvenido a Club5 AI",
+    "subtitle": "Tu compañero de 5AM para construir disciplina",
+    "getStarted": "Comenzar",
+    "enterName": "¿Cuál es tu nombre?",
+    "namePlaceholder": "Ingresa tu nombre",
+    "selectGender": "Selecciona tus pronombres",
+    "he": "Él",
+    "she": "Ella",
+    "selectTime": "¿A qué hora quieres despertarte?",
+    "timeHelper": "Recomendamos las 5:00 AM",
+    "selectCoach": "Elige tu entrenador de IA",
+    "natalie": "Natalie",
+    "natalieDesc": "Guía sabia, nutritiva y empática",
+    "max": "Max",
+    "maxDesc": "Coaching fuerte, fundamentado y solidario",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "finish": "Comenzar Mi Viaje"
+  },
+  "home": {
+    "goodMorning": "Buenos Días",
+    "goodEvening": "Buenas Tardes",
+    "checkIn": "Estoy Despierto",
+    "checkedIn": "¡Registrado!",
+    "streak": "Racha de Días",
+    "total": "Total de Registros",
+    "success": "Tasa de Éxito",
+    "quote": "La madrugada tiene oro en la boca",
+    "momentum": "Tu Impulso",
+    "seeAll": "Ver Todo el Progreso"
+  },
+  "checkIn": {
+    "success": "¡Excelente trabajo, {{name}}!",
+    "successMessage": "¡Estás construyendo una racha increíble!",
+    "tooEarly": "¡Es un poco temprano!",
+    "tooEarlyMessage": "Regístrate después de {{time}}",
+    "tooLate": "Perdiste la ventana de hoy",
+    "tooLateMessage": "Inténtalo de nuevo mañana a las {{time}}",
+    "alreadyDone": "¡Ya te registraste hoy!",
+    "alreadyDoneMessage": "Nos vemos mañana por la mañana",
+    "confetti": "🎉"
+  },
+  "coach": {
+    "title": "Tu Entrenador",
+    "dailyWisdom": "Sabiduría Diaria",
+    "deepMode": "Modo Profundo",
+    "deepModeDesc": "¿Necesitas apoyo extra? Hablemos",
+    "startSession": "Iniciar Sesión",
+    "quickPrompts": "Indicaciones Rápidas",
+    "motivation": "Necesito motivación",
+    "struggle": "Estoy luchando",
+    "celebrate": "Quiero celebrar",
+    "tips": "Dame consejos",
+    "chatPlaceholder": "Escribe tu mensaje...",
+    "send": "Enviar"
+  },
+  "progress": {
+    "title": "Tu Progreso",
+    "calendar": "Calendario de 30 Días",
+    "today": "Hoy",
+    "stats": "Estadísticas",
+    "currentStreak": "Racha Actual",
+    "days": "días",
+    "bestStreak": "Mejor Racha",
+    "totalCheckIns": "Total de Registros",
+    "successRate": "Tasa de Éxito",
+    "milestones": "Hitos",
+    "firstLight": "Primera Luz",
+    "firstLightDesc": "Completaste tu primer registro",
+    "weekWarrior": "Guerrero Semanal",
+    "weekWarriorDesc": "Racha de 7 días lograda",
+    "monthlyMaster": "Maestro Mensual",
+    "monthlyMasterDesc": "Racha de 30 días lograda",
+    "locked": "Bloqueado",
+    "unlocked": "Desbloqueado",
+    "achieved": "Logrado"
+  },
+  "settings": {
+    "title": "Configuración",
+    "account": "Cuenta",
+    "name": "Nombre",
+    "pronouns": "Pronombres",
+    "wakeTime": "Hora de Despertar",
+    "coach": "Entrenador IA",
+    "appearance": "Apariencia",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Por Defecto del Sistema",
+    "language": "Idioma",
+    "selectLanguage": "Seleccionar Idioma",
+    "notifications": "Notificaciones",
+    "enabled": "Activado",
+    "disabled": "Desactivado",
+    "data": "Datos",
+    "resetData": "Restablecer Todos los Datos",
+    "resetWarning": "Esto eliminará todo tu progreso. ¿Estás seguro?",
+    "resetConfirm": "Sí, Restablecer Todo",
+    "about": "Acerca de",
+    "version": "Versión",
+    "privacy": "Política de Privacidad",
+    "support": "Soporte"
+  },
+  "tabs": {
+    "home": "Inicio",
+    "progress": "Progreso",
+    "coach": "Entrenador",
+    "settings": "Configuración"
+  },
+  "coaches": {
+    "natalie": {
+      "welcome": "¡Hola {{name}}! Soy Natalie, tu guía en este viaje de 5AM. Juntos, construiremos la disciplina que lo cambia todo.",
+      "checkIn1": "¡Hermoso trabajo, {{name}}! Cada amanecer que apareces es una victoria.",
+      "checkIn7": "¡Siete días fuertes! No solo te estás despertando temprano, te estás convirtiendo en alguien nuevo.",
+      "checkIn30": "¡30 días de disciplina! {{name}}, has demostrado que puedes hacer cosas difíciles.",
+      "motivation": "Recuerda por qué empezaste. ¿Ese fuego dentro de ti? Es real y es poderoso.",
+      "struggle": "Te veo, {{name}}. Esto es difícil. Pero estás aquí, y eso significa que no te has rendido.",
+      "celebrate": "¡Sí! Celebremos este momento. Estás haciendo algo con lo que la mayoría solo sueña."
+    },
+    "max": {
+      "welcome": "Hey {{name}}, soy Max. Vayamos al grano: 5AM no se trata de despertarse temprano. Se trata de volverse inquebrantable.",
+      "checkIn1": "Día uno hecho. Ahora hazlo de nuevo mañana. Así se construyen campeones.",
+      "checkIn7": "Una semana. Eso es siete veces que elegiste disciplina sobre comodidad. Respeto.",
+      "checkIn30": "Un mes completo. No solo te despertaste a las 5AM, construiste una nueva identidad. Sigue adelante.",
+      "motivation": "Sabes lo que tienes que hacer. Deja de pensarlo demasiado y haz el trabajo.",
+      "struggle": "¿Luchando? Bien. Eso significa que estás creciendo. Ahora levántate y empuja.",
+      "celebrate": "¡Diablos sí! Pero no te pongas cómodo. Mañana es otra batalla."
+    }
+  },
+  "deepMode": {
+    "title": "Sesión de Modo Profundo",
+    "subtitle": "Hablemos de lo que tienes en mente",
+    "end": "Finalizar Sesión",
+    "prompts": {
+      "whatsBothering": "¿Qué te molesta realmente sobre despertarte temprano?",
+      "biggestChallenge": "¿Cuál es tu mayor desafío ahora mismo?",
+      "whyImportant": "¿Por qué es importante este hábito de 5AM para ti?",
+      "whatIfSuccess": "¿Cómo sería tu vida si dominaras esto?",
+      "whatHelps": "¿Qué te ayuda más cuando las cosas se ponen difíciles?"
+    }
+  },
+  "trial": {
+    "banner": "Modo de Prueba - {{days}} días restantes",
+    "expired": "Prueba Expirada",
+    "upgrade": "Actualizar a Premium",
+    "features": "Desbloquea todas las funciones con Premium"
+  }
+}

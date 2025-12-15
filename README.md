@@ -48,3 +48,16 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Environment variables
+
+1. Copy `.env.example` to `.env`.
+2. Set real values for:
+   - `EXPO_PUBLIC_OPENAI_API_KEY`
+   - `EXPO_PUBLIC_SUPABASE_URL`
+   - `EXPO_PUBLIC_SUPABASE_ANON_KEY`
+3. Run Expo with your env file: `npx expo start --env-file .env`.
+
+## Figma-exported UI code
+
+Figma/Draftbit exports have been integrated into the main app under `src/figma/**`. Do not run `npm start` inside `figma/`; the root Expo app is the only project. Existing imports now point to `@/figma/...`.

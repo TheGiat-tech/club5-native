@@ -1,0 +1,38 @@
+{
+  "home": {
+    "title": "Your Momentum",
+    "subtitle": "Track your progress and build consistency",
+    "quote_title": "Quote of the day",
+    "check_in_button": "Check in",
+    "streak_label": "Current streak",
+    "last_7_days": "Last 7 Days"
+  },
+  "momentum": {
+    "title": "Momentum stats",
+    "current_label": "Current",
+    "last_label": "Last",
+    "best_label": "Best",
+    "total_label": "Total"
+  },
+  "coach": {
+    "title": "Your AI Coach",
+    "subtitle": "Talk to your 5AM coach for motivation, accountability, and practical next steps.",
+    "start_button": "Talk to Coach",
+    "premium_cta": "Go premium"
+  },
+  "settings": {
+    "title": "Settings",
+    "language_section_title": "Language",
+    "language_option_en": "English",
+    "language_option_he": "Hebrew",
+    "language_option_es": "Spanish",
+    "language_option_fr": "French",
+    "language_option_ru": "Russian"
+  },
+  "onboarding": {
+    "welcome_title": "Welcome to Club5",
+    "welcome_subtitle": "We’ll build your morning momentum together.",
+    "next_button": "Next",
+    "finish_button": "Finish"
+  }
+}

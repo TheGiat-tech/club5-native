@@ -1,0 +1,162 @@
+{
+  "common": {
+    "appName": "Club5 AI",
+    "ok": "确定",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "done": "完成",
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功"
+  },
+  "onboarding": {
+    "welcome": "欢迎来到 Club5 AI",
+    "subtitle": "您的凌晨5点伙伴，帮助建立自律",
+    "getStarted": "开始使用",
+    "enterName": "您的名字是？",
+    "namePlaceholder": "输入您的名字",
+    "selectGender": "选择您的称谓",
+    "he": "他",
+    "she": "她",
+    "selectTime": "您想几点起床？",
+    "timeHelper": "我们推荐早上5:00",
+    "selectCoach": "选择您的AI教练",
+    "natalie": "娜塔莉",
+    "natalieDesc": "睿智、关怀、富有同理心的指导",
+    "max": "马克斯",
+    "maxDesc": "强大、踏实、支持性的辅导",
+    "next": "下一步",
+    "back": "返回",
+    "finish": "开始我的旅程"
+  },
+  "home": {
+    "goodMorning": "早上好",
+    "goodEvening": "晚上好",
+    "checkIn": "我醒了",
+    "checkedIn": "已签到！",
+    "streak": "连续天数",
+    "total": "总签到数",
+    "success": "成功率",
+    "quote": "早起的鸟儿有虫吃",
+    "momentum": "你的动力",
+    "seeAll": "查看所有进度"
+  },
+  "checkIn": {
+    "success": "干得好，{{name}}！",
+    "successMessage": "你正在建立惊人的连续记录！",
+    "tooEarly": "有点早！",
+    "tooEarlyMessage": "请在 {{time}} 之后签到",
+    "tooLate": "你错过了今天的时间窗口",
+    "tooLateMessage": "明天 {{time}} 再试",
+    "alreadyDone": "今天已经签到了！",
+    "alreadyDoneMessage": "明早见",
+    "confetti": "🎉"
+  },
+  "coach": {
+    "title": "你的教练",
+    "dailyWisdom": "每日智慧",
+    "deepMode": "深度模式",
+    "deepModeDesc": "需要额外支持？让我们谈谈",
+    "startSession": "开始会话",
+    "quickPrompts": "快速提示",
+    "motivation": "我需要动力",
+    "struggle": "我正在挣扎",
+    "celebrate": "我想庆祝",
+    "tips": "给我一些建议",
+    "chatPlaceholder": "输入你的消息...",
+    "send": "发送"
+  },
+  "progress": {
+    "title": "你的进度",
+    "calendar": "30天日历",
+    "today": "今天",
+    "stats": "统计",
+    "currentStreak": "当前连续",
+    "days": "天",
+    "bestStreak": "最佳连续",
+    "totalCheckIns": "总签到数",
+    "successRate": "成功率",
+    "milestones": "里程碑",
+    "firstLight": "第一缕光",
+    "firstLightDesc": "完成了你的第一次签到",
+    "weekWarrior": "一周战士",
+    "weekWarriorDesc": "达成7天连续",
+    "monthlyMaster": "月度大师",
+    "monthlyMasterDesc": "达成30天连续",
+    "locked": "已锁定",
+    "unlocked": "已解锁",
+    "achieved": "已达成"
+  },
+  "settings": {
+    "title": "设置",
+    "account": "账户",
+    "name": "名字",
+    "pronouns": "称谓",
+    "wakeTime": "起床时间",
+    "coach": "AI教练",
+    "appearance": "外观",
+    "theme": "主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统",
+    "language": "语言",
+    "selectLanguage": "选择语言",
+    "notifications": "通知",
+    "enabled": "已启用",
+    "disabled": "已禁用",
+    "data": "数据",
+    "resetData": "重置所有数据",
+    "resetWarning": "这将删除你的所有进度。确定吗？",
+    "resetConfirm": "是的，重置一切",
+    "about": "关于",
+    "version": "版本",
+    "privacy": "隐私政策",
+    "support": "支持"
+  },
+  "tabs": {
+    "home": "首页",
+    "progress": "进度",
+    "coach": "教练",
+    "settings": "设置"
+  },
+  "coaches": {
+    "natalie": {
+      "welcome": "你好 {{name}}！我是娜塔莉，你在这个5点旅程中的向导。一起，我们将建立改变一切的纪律。",
+      "checkIn1": "做得很好，{{name}}！你出现的每一个日出都是一场胜利。",
+      "checkIn7": "七天强！你不仅仅是早起——你正在成为新的自己。",
+      "checkIn30": "30天的纪律！{{name}}，你证明了你可以做困难的事情。",
+      "motivation": "记住你为什么开始。你内心的那团火？它是真实的，而且强大。",
+      "struggle": "我看到你了，{{name}}。这很难。但你在这里，这意味着你没有放弃。",
+      "celebrate": "是的！让我们庆祝这一刻。你正在做大多数人只能梦想的事情。"
+    },
+    "max": {
+      "welcome": "嘿 {{name}}，马克斯在这里。直入正题——5点不是关于早起。而是关于变得坚不可摧。",
+      "checkIn1": "第一天完成。现在明天再做一次。冠军就是这样炼成的。",
+      "checkIn7": "一周。这是你七次选择纪律而非舒适。尊重。",
+      "checkIn30": "整整一个月。你不仅在5点醒来——你建立了新的身份。继续。",
+      "motivation": "你知道你需要做什么。别想太多，去做就是了。",
+      "struggle": "在挣扎？很好。这意味着你在成长。现在站起来，推进它。",
+      "celebrate": "太好了！但别太舒服。明天又是一场战斗。"
+    }
+  },
+  "deepMode": {
+    "title": "深度模式会话",
+    "subtitle": "让我们谈谈你心里想的事",
+    "end": "结束会话",
+    "prompts": {
+      "whatsBothering": "早起真正困扰你的是什么？",
+      "biggestChallenge": "你现在最大的挑战是什么？",
+      "whyImportant": "为什么这个5点习惯对你很重要？",
+      "whatIfSuccess": "如果你掌握了这个，你的生活会是什么样子？",
+      "whatHelps": "当事情变得困难时，什么对你帮助最大？"
+    }
+  },
+  "trial": {
+    "banner": "试用模式 - 剩余 {{days}} 天",
+    "expired": "试用已过期",
+    "upgrade": "升级到高级版",
+    "features": "使用高级版解锁所有功能"
+  }
+}

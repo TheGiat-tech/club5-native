@@ -1,0 +1,30 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Safe zone guide (remove for final) - 640px diameter circle centered -->
+  <!-- <circle cx="512" cy="512" r="320" fill="none" stroke="red" stroke-width="2" opacity="0.3"/> -->
+  
+  <defs>
+    <filter id="iconShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Main content - must fit within safe zone -->
+  <!-- Number 5 with shadow -->
+  <text x="512" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="520" font-weight="900" fill="#FF7A00" text-anchor="middle" filter="url(#iconShadow)">5</text>
+  
+  <!-- Sun icon -->
+  <circle cx="512" cy="260" r="90" fill="#FFD700" filter="url(#iconShadow)"/>
+  <circle cx="512" cy="260" r="70" fill="#FFF4CC"/>
+  
+  <!-- Small rays -->
+  <g stroke="#FF7A00" stroke-width="16" stroke-linecap="round" opacity="0.7">
+    <line x1="512" y1="100" x2="512" y2="140" />
+    <line x1="512" y1="380" x2="512" y2="420" />
+    <line x1="352" y1="260" x2="392" y2="260" />
+    <line x1="632" y1="260" x2="672" y2="260" />
+    <line x1="400" y1="148" x2="428" y2="176" />
+    <line x1="596" y1="344" x2="624" y2="372" />
+    <line x1="624" y1="148" x2="596" y2="176" />
+    <line x1="428" y1="344" x2="400" y2="372" />
+  </g>
+</svg>

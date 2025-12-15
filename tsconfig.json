@@ -5,13 +5,20 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "@/figma/*": [
+        "./src/figma/*"
       ]
     }
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
+    "app/**/*",
+    "src/**/*",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
+  ],
+  "files": [],
+  "exclude": [
+    "figma/**/*"
   ]
 }

@@ -1,0 +1,105 @@
+{
+  "expo": {
+    "name": "Club5 AI",
+    "slug": "club5-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "club5ai",
+    "userInterfaceStyle": "automatic",
+    
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF9F5"
+    },
+    
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.club5ai.app",
+      "buildNumber": "1"
+    },
+    
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFF9F5"
+      },
+      "package": "com.club5ai.app",
+      "versionCode": 1
+    },
+    
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    
+    "plugins": [
+      "expo-localization"
+    ],
+    
+    "draftbit": {
+      "projectName": "Club5 AI",
+      "projectSlug": "club5-ai",
+      "version": "1.0.0",
+      "compatibility": "expo-51",
+      
+      "theme": {
+        "primaryColor": "#FF7A00",
+        "secondaryColor": "#6A5AE0",
+        "backgroundColor": "#FFF9F5",
+        "textColor": "#1A1A1A"
+      },
+      
+      "navigation": {
+        "type": "mixed",
+        "initialRoute": "Onboarding",
+        "tabBar": {
+          "position": "bottom",
+          "height": 90,
+          "activeColor": "#FF7A00",
+          "inactiveColor": "#666666"
+        }
+      },
+      
+      "features": {
+        "asyncStorage": true,
+        "i18n": true,
+        "darkMode": true,
+        "notifications": true,
+        "animations": true
+      },
+      
+      "screens": {
+        "Onboarding": {
+          "type": "stack",
+          "header": false,
+          "statusBar": "light"
+        },
+        "Home": {
+          "type": "tab",
+          "header": false,
+          "statusBar": "auto"
+        },
+        "Momentum": {
+          "type": "tab",
+          "header": false,
+          "statusBar": "auto"
+        },
+        "Coach": {
+          "type": "tab",
+          "header": false,
+          "statusBar": "auto"
+        },
+        "Settings": {
+          "type": "tab",
+          "header": false,
+          "statusBar": "auto"
+        }
+      }
+    }
+  }
+}

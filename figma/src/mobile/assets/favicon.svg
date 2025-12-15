@@ -1,0 +1,17 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF7A00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF2E9B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="48" height="48" fill="url(#faviconGradient)" rx="8"/>
+  
+  <!-- Number 5 -->
+  <text x="24" y="36" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="white" text-anchor="middle">5</text>
+  
+  <!-- Small sun -->
+  <circle cx="24" cy="12" r="4" fill="#FFD700"/>
+</svg>

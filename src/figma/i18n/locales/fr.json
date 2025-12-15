@@ -1,0 +1,162 @@
+{
+  "common": {
+    "appName": "Club5 AI",
+    "ok": "OK",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "done": "Terminé",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès"
+  },
+  "onboarding": {
+    "welcome": "Bienvenue sur Club5 AI",
+    "subtitle": "Votre compagnon 5h du matin pour bâtir la discipline",
+    "getStarted": "Commencer",
+    "enterName": "Quel est votre prénom?",
+    "namePlaceholder": "Entrez votre nom",
+    "selectGender": "Sélectionnez vos pronoms",
+    "he": "Il",
+    "she": "Elle",
+    "selectTime": "À quelle heure voulez-vous vous réveiller?",
+    "timeHelper": "Nous recommandons 5h00",
+    "selectCoach": "Choisissez votre coach IA",
+    "natalie": "Natalie",
+    "natalieDesc": "Guidance sage, bienveillante et empathique",
+    "max": "Max",
+    "maxDesc": "Coaching fort, ancré et solidaire",
+    "next": "Suivant",
+    "back": "Retour",
+    "finish": "Commencer Mon Voyage"
+  },
+  "home": {
+    "goodMorning": "Bonjour",
+    "goodEvening": "Bonsoir",
+    "checkIn": "Je Suis Réveillé",
+    "checkedIn": "Enregistré!",
+    "streak": "Série de Jours",
+    "total": "Total d'Enregistrements",
+    "success": "Taux de Réussite",
+    "quote": "Le monde appartient à ceux qui se lèvent tôt",
+    "momentum": "Votre Élan",
+    "seeAll": "Voir Tous les Progrès"
+  },
+  "checkIn": {
+    "success": "Excellent travail, {{name}}!",
+    "successMessage": "Vous construisez une série incroyable!",
+    "tooEarly": "C'est un peu tôt!",
+    "tooEarlyMessage": "Enregistrez-vous après {{time}}",
+    "tooLate": "Vous avez manqué la fenêtre d'aujourd'hui",
+    "tooLateMessage": "Réessayez demain à {{time}}",
+    "alreadyDone": "Déjà enregistré aujourd'hui!",
+    "alreadyDoneMessage": "À demain matin",
+    "confetti": "🎉"
+  },
+  "coach": {
+    "title": "Votre Coach",
+    "dailyWisdom": "Sagesse Quotidienne",
+    "deepMode": "Mode Profond",
+    "deepModeDesc": "Besoin de soutien supplémentaire? Parlons-en",
+    "startSession": "Commencer la Session",
+    "quickPrompts": "Suggestions Rapides",
+    "motivation": "J'ai besoin de motivation",
+    "struggle": "Je lutte",
+    "celebrate": "Je veux célébrer",
+    "tips": "Donnez-moi des conseils",
+    "chatPlaceholder": "Tapez votre message...",
+    "send": "Envoyer"
+  },
+  "progress": {
+    "title": "Vos Progrès",
+    "calendar": "Calendrier de 30 Jours",
+    "today": "Aujourd'hui",
+    "stats": "Statistiques",
+    "currentStreak": "Série Actuelle",
+    "days": "jours",
+    "bestStreak": "Meilleure Série",
+    "totalCheckIns": "Total d'Enregistrements",
+    "successRate": "Taux de Réussite",
+    "milestones": "Jalons",
+    "firstLight": "Première Lumière",
+    "firstLightDesc": "Vous avez terminé votre premier enregistrement",
+    "weekWarrior": "Guerrier Hebdomadaire",
+    "weekWarriorDesc": "Série de 7 jours atteinte",
+    "monthlyMaster": "Maître Mensuel",
+    "monthlyMasterDesc": "Série de 30 jours atteinte",
+    "locked": "Verrouillé",
+    "unlocked": "Déverrouillé",
+    "achieved": "Atteint"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "account": "Compte",
+    "name": "Prénom",
+    "pronouns": "Pronoms",
+    "wakeTime": "Heure de Réveil",
+    "coach": "Coach IA",
+    "appearance": "Apparence",
+    "theme": "Thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Par Défaut du Système",
+    "language": "Langue",
+    "selectLanguage": "Sélectionner la Langue",
+    "notifications": "Notifications",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "data": "Données",
+    "resetData": "Réinitialiser Toutes les Données",
+    "resetWarning": "Cela supprimera tous vos progrès. Êtes-vous sûr?",
+    "resetConfirm": "Oui, Tout Réinitialiser",
+    "about": "À Propos",
+    "version": "Version",
+    "privacy": "Politique de Confidentialité",
+    "support": "Support"
+  },
+  "tabs": {
+    "home": "Accueil",
+    "progress": "Progrès",
+    "coach": "Coach",
+    "settings": "Paramètres"
+  },
+  "coaches": {
+    "natalie": {
+      "welcome": "Bonjour {{name}}! Je suis Natalie, votre guide dans ce voyage de 5h. Ensemble, nous construirons la discipline qui change tout.",
+      "checkIn1": "Beau travail, {{name}}! Chaque lever de soleil où vous vous présentez est une victoire.",
+      "checkIn7": "Sept jours fort! Vous ne vous réveillez pas seulement tôt - vous devenez quelqu'un de nouveau.",
+      "checkIn30": "30 jours de discipline! {{name}}, vous avez prouvé que vous pouvez faire des choses difficiles.",
+      "motivation": "Rappelez-vous pourquoi vous avez commencé. Ce feu en vous? Il est réel et puissant.",
+      "struggle": "Je vous vois, {{name}}. C'est difficile. Mais vous êtes là, et cela signifie que vous n'avez pas abandonné.",
+      "celebrate": "Oui! Célébrons ce moment. Vous faites quelque chose dont la plupart ne font que rêver."
+    },
+    "max": {
+      "welcome": "Salut {{name}}, c'est Max. Allons droit au but - 5h ne concerne pas le réveil précoce. Il s'agit de devenir incassable.",
+      "checkIn1": "Premier jour terminé. Maintenant refais-le demain. C'est comme ça qu'on fait des champions.",
+      "checkIn7": "Une semaine. C'est sept fois que vous avez choisi la discipline plutôt que le confort. Respect.",
+      "checkIn30": "Un mois complet. Vous ne vous êtes pas seulement réveillé à 5h - vous avez construit une nouvelle identité. Continuez.",
+      "motivation": "Vous savez ce que vous devez faire. Arrêtez de trop réfléchir et faites le travail.",
+      "struggle": "Vous luttez? Bien. Cela signifie que vous grandissez. Maintenant levez-vous et poussez.",
+      "celebrate": "Putain oui! Mais ne vous mettez pas à l'aise. Demain est une autre bataille."
+    }
+  },
+  "deepMode": {
+    "title": "Session Mode Profond",
+    "subtitle": "Parlons de ce qui vous préoccupe",
+    "end": "Terminer la Session",
+    "prompts": {
+      "whatsBothering": "Qu'est-ce qui vous dérange vraiment à propos du réveil précoce?",
+      "biggestChallenge": "Quel est votre plus grand défi en ce moment?",
+      "whyImportant": "Pourquoi cette habitude de 5h est-elle importante pour vous?",
+      "whatIfSuccess": "À quoi ressemblerait votre vie si vous maîtrisiez cela?",
+      "whatHelps": "Qu'est-ce qui vous aide le plus quand les choses deviennent difficiles?"
+    }
+  },
+  "trial": {
+    "banner": "Mode Essai - {{days}} jours restants",
+    "expired": "Essai Expiré",
+    "upgrade": "Passer à Premium",
+    "features": "Débloquez toutes les fonctionnalités avec Premium"
+  }
+}

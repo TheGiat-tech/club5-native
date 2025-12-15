@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wake up at 5:00 AM. Build discipline with AI coaching. Transform your life with Club5 AI.">
+    <meta name="keywords" content="5am club, wake up early, morning routine, discipline, AI coach, productivity">
+    <title>Club5 AI - Your 5AM Companion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #FFF9F5 0%, #FFFFFF 50%, #FFF0E6 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: linear-gradient(135deg, #FF7A00 0%, #FF2E9B 100%);
+            color: white;
+            box-shadow: 0 4px 20px rgba(255, 122, 0, 0.3);
+        }
+        
+        .logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: sunrise 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes sunrise {
+            from { transform: translateY(0px); }
+            to { transform: translateY(-10px); }
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .tagline {
+            font-size: 1.3em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        main {
+            flex: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        .hero {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .hero h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 18px 35px;
+            font-size: 1.1em;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #FF7A00 0%, #FF2E9B 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 122, 0, 0.3);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #FF7A00;
+            border: 2px solid #FF7A00;
+        }
+        
+        .btn-secondary:hover {
+            background: #FFF9F5;
+            transform: translateY(-2px);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+        
+        .feature {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+        
+        .feature h3 {
+            font-size: 1.4em;
+            color: #FF7A00;
+            margin-bottom: 10px;
+        }
+        
+        .feature p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin: 40px 0;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+        }
+        
+        .stat {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #FF7A00, #FF2E9B);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+        
+        footer {
+            background: #1A1A1A;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: #FF7A00;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .hero h2 {
+                font-size: 1.8em;
+            }
+            
+            .btn {
+                padding: 15px 25px;
+                font-size: 1em;
+            }
+            
+            .logo {
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">🌅</div>
+        <h1>Club5 AI</h1>
+        <p class="tagline">Your 5AM Wake-Up Companion</p>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h2>Wake Up at 5:00 AM.<br>Transform Your Life.</h2>
+            <p>
+                Join thousands of early risers who've discovered the power of 5AM. 
+                Build discipline, boost productivity, and achieve your goals with personalized AI coaching.
+            </p>
+            
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">
+                    <span>📱</span>
+                    Download on Google Play
+                </a>
+                <a href="#" class="btn btn-primary">
+                    <span>🍎</span>
+                    Download on App Store
+                </a>
+            </div>
+            
+            <div class="cta-buttons" style="margin-top: 20px;">
+                <a href="privacy-policy.html" class="btn btn-secondary">
+                    Privacy Policy
+                </a>
+            </div>
+        </section>
+        
+        <section class="stats">
+            <div class="stat">
+                <div class="stat-number">5:00</div>
+                <div class="stat-label">AM Wake Time</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">30</div>
+                <div class="stat-label">Day Tracking</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">2</div>
+                <div class="stat-label">AI Coaches</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Offline</div>
+            </div>
+        </section>
+        
+        <section class="features">
+            <div class="feature">
+                <div class="feature-icon">🔥</div>
+                <h3>Daily Check-In</h3>
+                <p>Simple "I'm Awake" button with confetti celebration. Build your streak day by day.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🤖</div>
+                <h3>AI Life Coaches</h3>
+                <p>Choose between Natalie and Max. Get personalized motivation and Deep Mode sessions.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <h3>Progress Tracking</h3>
+                <p>Beautiful 30-day calendar. Track streaks, milestones, and achievements.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🎨</div>
+                <h3>Beautiful Design</h3>
+                <p>Minimalist interface with smooth animations. Light and dark modes included.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">⚙️</div>
+                <h3>Full Customization</h3>
+                <p>Adjust wake time, switch coaches, customize themes. Make it yours.</p>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <h3>Privacy First</h3>
+                <p>100% offline. All data stays on your device. No tracking, no ads.</p>
+            </div>
+        </section>
+        
+        <section class="hero">
+            <h2>Why Join the 5AM Club?</h2>
+            <p style="margin-top: 30px;">
+                Early risers report increased productivity, better mental health, 
+                enhanced focus, and a stronger sense of control over their day. 
+                The 5AM habit has been proven to transform lives.
+            </p>
+            <p style="margin-top: 20px; font-weight: 600; color: #FF7A00;">
+                Your transformation starts tomorrow at 5:00 AM.
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="mailto:support@club5ai.com">Support</a>
+            <a href="mailto:hello@club5ai.com">Contact</a>
+        </div>
+        <p style="opacity: 0.7; margin-top: 20px;">
+            © 2024 Club5 AI. All rights reserved.
+        </p>
+        <p style="opacity: 0.6; margin-top: 10px; font-size: 0.9em;">
+            Made with ❤️ for the 5AM Club
+        </p>
+    </footer>
+</body>
+</html>
