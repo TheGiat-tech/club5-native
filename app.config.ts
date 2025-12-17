@@ -6,6 +6,11 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     ...config.android,
     package: 'com.giatech.club5native',
     versionCode: config.android?.versionCode ?? 1,
+    // Preserve permissions from app.json
+    permissions: config.android?.permissions,
+    adaptiveIcon: config.android?.adaptiveIcon,
+    edgeToEdgeEnabled: config.android?.edgeToEdgeEnabled,
+    predictiveBackGestureEnabled: config.android?.predictiveBackGestureEnabled,
   },
   ios: {
     ...config.ios,

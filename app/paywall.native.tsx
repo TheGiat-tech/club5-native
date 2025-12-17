@@ -36,6 +36,17 @@ export default function PaywallScreen() {
     if (!ready) return;
 
     try {
+      // Verify offerings are available before showing paywall
+      const offerings = await Purchases.getOfferings();
+      if (!offerings.current || Object.keys(offerings.current.availablePackages).length === 0) {
+        Alert.alert(
+          'No offerings available',
+          'Unable to load subscription options. Please ensure your app is properly configured in RevenueCat and Google Play Console.',
+        );
+        console.warn('RevenueCat offerings are empty. Check RevenueCat dashboard and Google Play Console configuration.');
+        return;
+      }
+      
       await PurchasesUI.presentPaywall();
       const customerInfo = await Purchases.getCustomerInfo();
       if (customerInfo && getIsProFromCustomerInfo(customerInfo)) {
