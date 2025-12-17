@@ -56,7 +56,21 @@ Join our community of developers creating universal apps.
    - `EXPO_PUBLIC_OPENAI_API_KEY`
    - `EXPO_PUBLIC_SUPABASE_URL`
    - `EXPO_PUBLIC_SUPABASE_ANON_KEY`
+   - `EXPO_PUBLIC_REVENUECAT_ANDROID_KEY`
+   - `EXPO_PUBLIC_REVENUECAT_IOS_KEY`
 3. Run Expo with your env file: `npx expo start --env-file .env`.
+
+## Platform-Specific Setup
+
+### Android
+For comprehensive Android setup instructions, including permissions, build configuration, and deployment guidelines, see [docs/ANDROID_SETUP.md](./docs/ANDROID_SETUP.md).
+
+Key Android features:
+- ✅ Notification permissions configured
+- ✅ Adaptive icons and splash screen
+- ✅ RevenueCat in-app purchases
+- ✅ Material Icons fallback
+- ✅ Android-specific keyboard handling
 
 ## Figma-exported UI code
 

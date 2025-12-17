@@ -258,8 +258,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
         if (await StoreReview.isAvailableAsync()) {
           await StoreReview.requestReview();
         } else {
-          const androidUrl = 'https://play.google.com/store/apps/details?id=com.yourcompany.club5';
-          const iosUrl = 'https://apps.apple.com/app/idXXXXXXXXXX';
+          // Use the actual package ID from app.json
+          const androidUrl = 'https://play.google.com/store/apps/details?id=com.giatech.club5native';
+          const iosUrl = 'https://apps.apple.com/app/club5native/id'; // TODO: Add actual iOS App Store ID when available
 
           const storeUrl = Platform.select({
             ios: iosUrl,
