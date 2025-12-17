@@ -2,6 +2,8 @@
 
 This document provides a comprehensive guide for setting up and deploying the Club5 Native app on Android.
 
+> **✅ UPDATE**: All critical Android production issues have been fixed. See [ANDROID_PRODUCTION_CHECKLIST.md](./ANDROID_PRODUCTION_CHECKLIST.md) for details on the 6 mandatory validations.
+
 ## Prerequisites
 
 - Node.js (v18 or higher)
