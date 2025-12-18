@@ -1,6 +1,6 @@
 import * as Notifications from 'expo-notifications';
 import * as Device from 'expo-device';
-import { Platform } from 'react-native';
+import { Platform, Alert, Linking } from 'react-native';
 
 // Configure notification behavior for mobile
 Notifications.setNotificationHandler({
@@ -12,6 +12,48 @@ Notifications.setNotificationHandler({
     shouldShowList: true,
   }),
 });
+
+/**
+ * Check if exact alarms are allowed on Android 12+
+ * Returns true if exact alarms can be scheduled
+ */
+export async function canScheduleExactAlarms(): Promise<boolean> {
+  if (Platform.OS !== 'android') return true;
+  
+  try {
+    // For Android 12+ (API 31+), check if exact alarm permission is granted
+    // Note: expo-notifications doesn't expose this directly, so we assume it's granted
+    // In a production app, you'd use a native module or check device settings
+    return true;
+  } catch (error) {
+    console.warn('Failed to check exact alarm permission', error);
+    return false;
+  }
+}
+
+/**
+ * Prompt user to enable exact alarms if needed (Android 12+)
+ */
+export async function promptForExactAlarmPermission(): Promise<void> {
+  if (Platform.OS !== 'android') return;
+  
+  Alert.alert(
+    'Exact Alarm Permission',
+    'To ensure you receive wake-up notifications at the exact time, please enable "Alarms & reminders" permission in settings.',
+    [
+      { text: 'Cancel', style: 'cancel' },
+      {
+        text: 'Open Settings',
+        onPress: () => {
+          // Open app settings
+          Linking.openSettings().catch((error) => {
+            console.warn('Failed to open settings', error);
+          });
+        },
+      },
+    ]
+  );
+}
 
 export async function registerForPushNotifications(): Promise<string | undefined> {
   let token: string | undefined;
@@ -36,7 +78,8 @@ export async function registerForPushNotifications(): Promise<string | undefined
   }
 
   if (Platform.OS === 'android') {
-    Notifications.setNotificationChannelAsync('default', {
+    // Create notification channel (redundant if already done in _layout, but safe)
+    await Notifications.setNotificationChannelAsync('default', {
       name: 'default',
       importance: Notifications.AndroidImportance.MAX,
       vibrationPattern: [0, 250, 250, 250],

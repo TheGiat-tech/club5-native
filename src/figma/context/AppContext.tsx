@@ -258,8 +258,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
         if (await StoreReview.isAvailableAsync()) {
           await StoreReview.requestReview();
         } else {
-          const androidUrl = 'https://play.google.com/store/apps/details?id=com.yourcompany.club5';
-          const iosUrl = 'https://apps.apple.com/app/idXXXXXXXXXX';
+          // Fallback to opening store URLs manually
+          // Note: iOS App Store ID should be added once the app is published
+          const androidUrl = 'https://play.google.com/store/apps/details?id=com.giatech.club5native';
+          const iosUrl = null; // Set to 'https://apps.apple.com/app/club5native/idXXXXXXXXXX' once published
 
           const storeUrl = Platform.select({
             ios: iosUrl,
@@ -269,6 +271,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
           if (storeUrl) {
             await Linking.openURL(storeUrl);
+          } else {
+            console.warn('Store review not available and no fallback URL configured');
           }
         }
 
